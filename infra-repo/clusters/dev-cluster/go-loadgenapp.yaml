@@ -18,7 +18,7 @@ spec:
         app: loadgenapp
     spec:
       containers:
-      - image: go-loadgen
+      - image: go-loadgen:latest
         name: go-loadgen
         resources: {}
 status: {}
