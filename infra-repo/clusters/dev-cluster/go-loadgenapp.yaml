@@ -5,6 +5,7 @@ metadata:
   labels:
     app: loadgenapp
   name: loadgenapp
+  namespace: testns
 spec:
   replicas: 1
   selector:
