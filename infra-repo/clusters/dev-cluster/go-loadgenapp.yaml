@@ -18,7 +18,9 @@ spec:
         app: loadgenapp
     spec:
       containers:
-      - image: go-loadgen:latest
+      - image: docker.io/library/go-loadgen:latest
         name: go-loadgen
+        ports:
+          - containerPort: 8080
         resources: {}
 status: {}
